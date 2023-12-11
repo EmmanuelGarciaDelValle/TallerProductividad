@@ -21,11 +21,11 @@ A través de esta tabla se describirá las tecnologías que se utilizaron para e
 
 Este proyecto utiliza las siguientes tecnologías:
 
-- Apache NetBeans IDE 19
-- GlassFish Server 7
-- MySQL WorkBench 8.0
-- Java 17
-- Bootstrap v5.3.2
+- Apache NetBeans IDE 19 https://netbeans.apache.org/front/main/
+- GlassFish Server 7 https://glassfish.org/
+- MySQL WorkBench 8.0 https://dev.mysql.com/downloads/mysql/
+- Java 17 https://www.oracle.com/mx/java/technologies/downloads/
+- Bootstrap v5.3.2 https://getbootstrap.com/
 
 ## Instalación
 
