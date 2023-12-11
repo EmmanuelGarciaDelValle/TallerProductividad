@@ -14,7 +14,7 @@ public class ConnectionPro {
     public static Connection getConnection(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3080/lamilpa","root","Emmanuel120569");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3080/lamilpa","root","contraseña");
             
         }catch(Exception e){
             e.printStackTrace();
