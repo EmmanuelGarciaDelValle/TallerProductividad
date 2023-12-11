@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px; }
+
+header .menu {
+  text-align: right; }
+
+/* .main
+ *
+ * .acerca
+ * 	margin-bottom: 70px
+ * 	.desc
+ * 		margin-bottom: 20px
+ * 		.thumb
+ * 			img
+ * 				border-radius: 3px
+ * 				width: 25%
+ * 				vertical-align: top
+ * 		.titulo
+ * 			margin-top: 70px
+ * 			margin-bottom: 40px
+ * 			font-size: 32px
+ * 			line-height: 32px
+ * 			font-weight: 300
+ * 			&.azul
+ * 				color: #4facd3
+ * 			&.naranja
+ * 				color: #ddb146
+ * 		.parrafo
+ * 			line-height: 28px
+ * 		.derecha
+ * 			text-align: right */
+.main .acerca-de {
+  margin-bottom: 70px; }
+  .main .acerca-de .desc {
+    display: flex;
+    margin-bottom: 20px; }
+    .main .acerca-de .desc .thumb img {
+      border-radius: 5%;
+      margin: 30px;
+      width: 350px;
+      vertical-align: top; }
+    .main .acerca-de .desc .titulo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300; }
+      .main .acerca-de .desc .titulo.azul {
+        color: #4facd3; }
+      .main .acerca-de .desc .titulo.naranja {
+        color: #ddb146; }
+    .main .acerca-de .desc .parrafo {
+      line-height: 28px; }
+    .main .acerca-de .desc .derecha {
+      text-align: right; }
+
+@media screen and (max-width: 768px) {
+  .main .acerca-de .desc {
+    margin-bottom: 10px; }
+    .main .acerca-de .desc .thumb img {
+      width: 180px;
+      margin: 15px; }
+    .main .acerca-de .desc .titulo {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+
+  footer .pie {
+    vertical-align: top;
+    justify-content: center; } }
+@media screen and (max-width: 600px) {
+  .main .acerca-de .desc {
+    margin-bottom: 10px; }
+    .main .acerca-de .desc .thumb img {
+      text-align: center;
+      width: 100px;
+      margin: 15px; }
+    .main .acerca-de .desc .titulo {
+      text: 10px;
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 20px; }
+
+  footer .pie {
+    vertical-align: top;
+    justify-content: center; } }
+
+/*# sourceMappingURL=estilos.css.map */
