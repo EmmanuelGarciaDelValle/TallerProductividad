@@ -76,17 +76,17 @@
         <div class="container d-flex justify-content-center margin-top">
             <div class="mt-5 text-center"> 
                 <h1>
-                    Bienvenido, Emmanuel
+                    Bienvenido, 
                     <%=user.getName()%></h1>
                 </h1>
                 <br/>
                 <h3>
-                    Tu ID de Cuenta: 1
+                    Tu ID de Cuenta: 
                     <%=user.getId()%>
                 </h3>
                 <br/>
                 <h3>    
-                    Tu Email: emmanuel@gmail.com
+                    Tu Email: 
                     <%=user.getEmail()%>
                 </h3>
             </div>
